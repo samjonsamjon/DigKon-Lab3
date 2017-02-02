@@ -16,7 +16,7 @@ SIGNAL EQtemp : STD_LOGIC;
 SIGNAL C : STD_LOGIC_VECTOR(7 DOWNTO 0);
 
 BEGIN
-
+-- detta blev ju steeelt
 C <= A XOR B;
 EQtemp <= C(0) OR C(1) OR  C(2) OR C(3) OR C(4) OR C(5) OR C(6) OR C(7);
 NEQ <= EQTemp;
