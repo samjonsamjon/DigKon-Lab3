@@ -23,4 +23,4 @@ NEQ <= EQTemp;
 EQ <= NOT EQTemp;
 
 
-END dataflow ;
+END dataflow ; --Hej
